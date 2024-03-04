@@ -19,6 +19,7 @@ public class JavaMain extends HealthcareService {
 
 		//By: Rev Christian
 		//For Testing purposes only.
+		//Thanks.
 
 	}
 
