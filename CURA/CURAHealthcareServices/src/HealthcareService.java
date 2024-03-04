@@ -63,7 +63,7 @@ public class HealthcareService {
 		screenShot();
 		
 		driver.findElement(By.id("btn-login")).click();
-		System.out.println("User Loged in");
+		System.out.println("Action: User Loged in");
 
 	}
 	
@@ -151,7 +151,7 @@ public class HealthcareService {
 		
 		//Logout
 		driver.findElement(By.xpath("//*[@id=\"sidebar-wrapper\"]/ul/li[5]/a")).click();
-		System.out.println("User Logged out.");
+		System.out.println("Action: User Logged out.");
 		
 		//Call screenShot()
 		screenShot();
