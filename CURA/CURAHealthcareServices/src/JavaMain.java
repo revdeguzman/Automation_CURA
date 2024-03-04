@@ -17,6 +17,8 @@ public class JavaMain extends HealthcareService {
 		obj.menuLogout();
 		obj.closeBrowser();
 
+		//By: Rev Christian
+
 	}
 
 }
