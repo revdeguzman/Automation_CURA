@@ -13,6 +13,12 @@ public class JavaMain extends HealthcareService {
 		obj.loginDemoAccount();
 		obj.scheduleAppointment();
 		obj.confimationPage();
+		//obj.menu();
+		//obj.menuHome(); //Remove comment if need to verify Home
+		obj.menu();
+		obj.menuHistory();
+		//obj.menu();
+		//obj.menuProfile(); //Remove comment if need to verify Profile
 		obj.menu();
 		obj.menuLogout();
 		obj.closeBrowser();

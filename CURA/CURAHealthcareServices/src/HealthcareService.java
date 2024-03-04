@@ -102,8 +102,6 @@ public class HealthcareService {
 		//Call screenShot()
 		screenShot();
 		
-		driver.findElement(By.xpath("//*[@id=\"summary\"]/div/div/div[7]/p/a")).click();
-		
 	}
 	
 	public void menu() throws InterruptedException, IOException {
@@ -119,8 +117,39 @@ public class HealthcareService {
 		
 	}
 	
+	public void menuHome() throws InterruptedException, IOException {
+		
+		//Home
+		driver.findElement(By.xpath("//*[@id=\"sidebar-wrapper\"]/ul/li[2]/a")).click();
+		
+		//Call screenShot()
+		screenShot();
+		
+	}
+	
+	public void menuHistory() throws InterruptedException, IOException {
+		
+		//History
+		driver.findElement(By.xpath("//*[@id=\"sidebar-wrapper\"]/ul/li[3]/a")).click();
+		
+		//Call screenShot()
+		screenShot();
+		
+	}
+	
+	public void menuProfile() throws InterruptedException, IOException {
+		
+		//Profile
+		driver.findElement(By.xpath("//*[@id=\"sidebar-wrapper\"]/ul/li[4]/a")).click();
+		
+		//Call screenShot()
+		screenShot();
+		
+	}
+	
 	public void menuLogout() throws InterruptedException, IOException {
 		
+		//Logout
 		driver.findElement(By.xpath("//*[@id=\"sidebar-wrapper\"]/ul/li[5]/a")).click();
 		System.out.println("User Logged out.");
 		
