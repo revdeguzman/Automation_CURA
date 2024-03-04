@@ -18,6 +18,7 @@ public class JavaMain extends HealthcareService {
 		obj.closeBrowser();
 
 		//By: Rev Christian
+		//For Testing purposes only.
 
 	}
 
